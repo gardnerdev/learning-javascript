@@ -23,6 +23,7 @@
 
 function reverseMe(input) {
 if (typeof(input) == "string"){
+    input = input.split('').reverse().join('')
 return input;
 } 
 }
