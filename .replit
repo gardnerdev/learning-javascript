@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "node odwroc-to/index.js"
+run = "node przeplatanie/index.js"
