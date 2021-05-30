@@ -22,17 +22,19 @@
 */
 
 function reverseMe(input) {
-  return input;
+if (typeof(input) == "string"){
+return input;
+} 
 }
 
 /* Weryfikacja */
 
 function verify(input, goal) {
-  if (input === goal) {
-    console.log('Gratulacje!');
-  } else {
-    console.log(`Niestety, oczekiwano - ${goal}, otrzymano - ${input}`);
-  }
+if (input === goal) {
+console.log('Gratulacje!');
+} else {
+console.log(`Niestety, oczekiwano - ${goal}, otrzymano - ${input}`);
+}
 }
 
 verify(reverseMe('a'), 'a');
