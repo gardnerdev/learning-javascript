@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "node policz-slowa/index.js"
+run = "node izogram/index.js"

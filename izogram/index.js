@@ -17,14 +17,13 @@
 * 
 */
 
-function isogram(word) {
-  for (let i = 0; i < word.length; i++) {
-    if (word.indexOf(word[i]) !== word.lastIndexOf(word[i])) {
-      return true
-    }
-  }
-  return false
-}
+function isogram(word){
+    word = word.toLowerCase()   
+    let b = Array.from(new Set(word)).join('');
+    if (word==b){
+        return true;
+    } return false
+};
 
 /* Weryfikacja */
 
