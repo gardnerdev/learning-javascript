@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "node przeplatanie/index.js"
+run = "node jedna-by-wszystkimi-rzadzic/index.js"
