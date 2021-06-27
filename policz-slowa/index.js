@@ -27,7 +27,7 @@
 */
 
 function countWords(sentence) {
-    return sentence.split(" ").reduce(function(count, word) {
+    return sentence.replace(',','').toLowerCase().split(" ").reduce(function(count, word) {
       count[word] = count.hasOwnProperty(word) ? count[word] + 1 : 1;
       return count;
     }, {});
