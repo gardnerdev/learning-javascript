@@ -2,6 +2,7 @@
 * Opanuj JavaScript - Przeprogramowani.pl
 * I. Fundamenty języka JavaScript
 *
+*
 * Ćwiczenie 6 - "W dwóch krokach"
 */
 
