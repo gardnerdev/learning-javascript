@@ -4,7 +4,6 @@
 *
 * Ćwiczenie 3 - "Przeplatanie"
 */
-
 /*
 * Cel zadania
 *------------
